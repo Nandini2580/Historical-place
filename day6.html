@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{grid-area:a1;}
+        #b{grid-area:b1;}
+        #c{grid-area:c1;}
+
+        #box{
+             display:grid;
+             grid-template-areas: 'a1 b1' 'c1 c1';
+             background-color: rgb(238, 190, 190);
+        }
+        /* #box{
+        display:flex;
+        flex-direction: row;
+        padding:20px;
+        background-color:transparent;
+        border:"500px"; 
+
+       } */
+       #box > div {
+        background-color:white;
+        border:solid;
+        border-radius: 10px;
+        border-color: black;
+        color:red;
+        padding:20px;
+        /* border:1px solid black; */
+        margin:20px;
+        /* box-shadow: 10px 10px 10px black;  */
+        font-weight: 300;
+        box-shadow: 10px 10px 10px grey;
+        text-align: center;
+        /* width:300px;
+        height:300px; */
+        
+    }
+    img{
+        border-left :20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px ;
+        color:grey;
+
+    }
+    </style>
+</head>
+<body></body>
+        <div id="box">
+        <div id="a">Home
+            <!-- <img src="https://images.pexels.com/photos/29983242/pexels-photo-29983242/free-photo-of-charming-european-robin-amidst-lush-greenery.jpeg?auto
+            =compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100px"><p>Hobi Photography
+                charming-european-robin-amidst-lush-greenery</p> -->
+        </div>
+        <div id="b">about</div>
+        <div id="c">product</div>
+        <div id="d">contacts</div>
+        <div id="e">Details</div>
+        </div>
+</body>
+</html>
